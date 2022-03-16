@@ -1,0 +1,29 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #303a5f;
+  padding: 0.3rem 1rem;
+  color: white;
+}
+
+.pagination {
+  display: inline;
+  background-color: #303a5f;
+  cursor: pointer;
+  padding: 0rem 1rem;
+}
+.pagination.right {
+  right: 0;
+}
+
+.pagination.left {
+  left: 0;
+  border-right: 1px solid #eee;
+}

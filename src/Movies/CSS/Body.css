@@ -1,0 +1,9 @@
+body {
+  background-color: #272735;
+}
+#movies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
